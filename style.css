@@ -1,0 +1,92 @@
+body {
+	background-color: #FAFAFA;
+	color: #1A3C40;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-weight: 900;
+	font-family: roboto;
+	color: #1A3C40;
+}
+
+h2 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p {
+	color: #417D7A;
+	font-family: 'Libre Bodoni', serif;
+	text-decoration: none;
+
+	
+}
+
+a{
+	text-decoration: none;
+	color: #AE432B;
+	font-weight: bold;
+	font-family: roboto;
+	transition: color 0.3s ease;
+	font-size: 27px;
+}
+
+a:hover {
+	color: #D7B5AD;
+}
+
+#profile {
+	width: 120px;
+	text-align: center;
+}
+
+div {
+	text-align: justify-all;
+	text-justify:  values;
+}
+
+
+
+/*Custom design with class*/
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+
+	}
+}
+
+@media (max-width:  500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    text-align: justify-all;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 51%;
+}
+
+
+
+
+
+
+
